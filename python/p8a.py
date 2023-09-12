@@ -14,7 +14,7 @@ class StringPalindrome(Palindrome):
                 super().__init__(data)
 
         def is_palindrome(self):
-                return super().is_palindrome()
+                return self.is_palindrome()
 
 class IntegerPalindrome(Palindrome):
         def __init__(self, data):
